@@ -1,0 +1,23 @@
+.firstQuestion {
+  display: block;
+}
+
+.secondQuestion {
+  display: none;
+}
+
+.thirdQuestion {
+  display: none;
+}
+
+.fourthQuestion {
+  display: none
+}
+
+.fifthQuestion {
+  display: none
+}
+
+.end {
+  display: none;
+}
