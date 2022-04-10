@@ -5,8 +5,17 @@ const fourthQuestion = $("#fourthQuestion").val();
 const fifthQuestion = $("#fifthQuestion").val();
 
 $(document).ready(function() {
-  $("#name").submit(function(event) {
-    $("#firstQestion").show();
+  $("#formOne").submit(function(event) {
     event.preventDefault();
+
+    $("#firstQuestion").show();
+  });
+});
+
+$(document).ready(function() {
+  $("#formTwo").submit(function(event) {
+    event.preventDefault();
+    
+    $("#secondQuestion").show();
   });
 });
