@@ -11,56 +11,59 @@
   <div class="container">
     <h1>What Coding Language Are You?</h1>
     <p>Let us start off with a few simple questions.</p>
-    <div>
-      <div class="survey">
-        <div class="firstQuestion">
-          <h2>What part of a helicopter do you most identify with?</h2>
-          <ul class="option">
-            <li>Rotor</li>
-            <li>Engine</li>
-            <li>Cockpit</li>
-          </ul>
-        </div>
+    <form id="name">
+      <div>
+        <div class="survey">
+          <div class="firstQuestion">
+            <h2>What part of a helicopter do you most identify with?</h2>
+            <select class="form-control" id="firstQuestion">
+              <option>Rotor</option>
+              <option>Engine</option>
+              <option>Cockpit</option>
+            </select>
+          </div>
         
-        <div class="secondQuestion">
-          <h2>What would you do when confronted by a hostile Grizzly Bear?</h2>
-          <ul class="option">
-            <li>Run</li>
-            <li>Fight</li>
-            <li>Bargain for your life</li>
-          </ul>
+          <div class="secondQuestion">
+            <h2>What would you do when confronted by a hostile Grizzly Bear?</h2>
+            <select class="form-control" id="secondQuestion">
+              <option>Fight</option>
+              <option>Run</option>
+              <option>Bargain for your life</option>
+            </select>
+          </div>
+
+          <div class="thirdQuestion">
+            <h2>When presented with an assortment of cheese. Which do you choose?</h2>
+            <select class="form-control" id="thirdQuestion">
+              <option>Ricotta</option>
+              <option>Gorgonzola</option>
+              <option>Cottage</option>
+            </select>
+          </div>
+
+          <div class="fourthQuestion">
+            <h2>What are you likely to do when meeting a friend's new dog?</h2>
+            <select class="form-control" id="fourthQuestion">
+            <option>Baby talk with heavy grabbing of the face and ears</option>
+              <option>Ignore it</option>
+              <option>Be polite and introduce yourself like a respectable individual</option>
+            </select>
+          </div>
+
+          <div class="fifthQuestion">
+            <h2>Which art period do you prefer?</h2>
+            <select class="form-control" id="fifthQuestion">
+              <option>Baroque</option>
+              <option>Surrealism</option>
+              <option>Impressionism</option>
+            </select>
+          </div>
         </div>
 
-        <div class="thirdQuestion">
-          <h2>When presented with an assortment of cheese. Which do you choose?</h2>
-          <ul class="option">
-            <li>Ricotta</li>
-            <li>Gorgonzola</li>
-            <li>Cottage</li>
-          </ul>
-        </div>
-
-        <div class="fourthQuestion">
-          <h2>What are you likely to do when meeting a friend's new dog?</h2>
-          <ul class="option">
-            <li>Baby talk with heavy grabbing of the face and ears</li>
-            <li>Ignore it</li>
-            <li>Be polite and introduce yourself like a respectable individual</li>
-          </ul>
-        </div>
-
-        <div class="fifthQuestion">
-          <h2>Which art period do you prefer?</h2>
-          <ul class="option">
-            <li>Baroque</li>
-            <li>Surrealim</li>
-            <li>Impressionism</li>
-          </ul>
+        <div class="end">
+          <h2>Interesting Choices</h2>
         </div>
       </div>
-
-      <div class="end">
-        <h2>Interesting Choices</h2>
-      </div>
-    </div>
+      <button type="submit" class="btn">Lets get started!</button>
+    </form>
   </div>  
