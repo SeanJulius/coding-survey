@@ -1,3 +1,8 @@
-#survey, #firstQuestion, #secondQuestion, #thirdQuestion, #fourthQuestion, #fifthQuestion {
+#firstQuestion, #secondQuestion, #thirdQuestion, #fourthQuestion, #fifthQuestion {
   display: none;
 }
+
+.btn {
+  display: block;
+}
+
