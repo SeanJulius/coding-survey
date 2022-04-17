@@ -1,8 +1,28 @@
-#firstQuestion, #secondQuestion, #thirdQuestion, #fourthQuestion, #fifthQuestion {
+#firstResult, #secondResult, #thirdResult, #nullResult {
   display: none;
 }
 
-.btn {
-  display: block;
+body {
+  background-color:aquamarine
 }
 
+.btn {
+  color: greenyellow;
+  font-weight: bold;
+  border: 8px solid rgb(47, 29, 29);
+  background-color: rgb(88, 41, 99);
+  cursor: pointer;
+  padding:40px;
+}
+
+#firstResult {
+  color: blue;
+}
+
+#secondResult {
+  color: rgb(186, 72, 91);
+}
+
+#thirdResult {
+  color: rgb(140, 113, 18);
+}
